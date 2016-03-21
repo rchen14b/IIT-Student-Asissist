@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9800C5E91BC228F000645AC5 /* IIT LOGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9800C5E81BC228F000645AC5 /* IIT LOGO.jpg */; };
+		9800C5EB1BC2290400645AC5 /* iit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9800C5EA1BC2290400645AC5 /* iit.png */; };
+		9800C5ED1BC229A300645AC5 /* IIT_LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 9800C5EC1BC229A300645AC5 /* IIT_LOGO.png */; };
+		9800C5EF1BC22B3900645AC5 /* watchkit in Resources */ = {isa = PBXBuildFile; fileRef = 9800C5EE1BC22B3900645AC5 /* watchkit */; };
+		9800C5F11BC2339400645AC5 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800C5F01BC2339400645AC5 /* Maps.swift */; };
+		9800C5F31BC233F400645AC5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800C5F21BC233F400645AC5 /* Home.swift */; };
+		9800C5F51BC2355A00645AC5 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800C5F41BC2355A00645AC5 /* News.swift */; };
+		9800C5F71BC2356200645AC5 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800C5F61BC2356200645AC5 /* Events.swift */; };
+		9800C5FD1BC24B0900645AC5 /* main_campus_bw-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9800C5FC1BC24B0900645AC5 /* main_campus_bw-1.png */; };
+		98CE14D41BC4937100567250 /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CE14D31BC4937100567250 /* ContactUs.swift */; };
+		AC0FA41E1AD5EA1D00375765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FA41D1AD5EA1D00375765 /* AppDelegate.swift */; };
+		AC0FA4201AD5EA1D00375765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FA41F1AD5EA1D00375765 /* ViewController.swift */; };
+		AC0FA4231AD5EA1D00375765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0FA4211AD5EA1D00375765 /* Main.storyboard */; };
+		AC0FA4251AD5EA1D00375765 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0FA4241AD5EA1D00375765 /* Images.xcassets */; };
+		AC0FA4281AD5EA1D00375765 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0FA4261AD5EA1D00375765 /* LaunchScreen.xib */; };
+		AC0FA4341AD5EA1D00375765 /* SlideoutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FA4331AD5EA1D00375765 /* SlideoutMenuTests.swift */; };
+		AC0FA4401AD5EAF900375765 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0FA43F1AD5EAF900375765 /* SWRevealViewController.m */; };
+		AC0FA4421AD5ECD200375765 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0FA4411AD5ECD200375765 /* BackTableVC.swift */; };
+		CD664B461C094FDE00A432B8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD664B441C094FDE00A432B8 /* Alamofire.framework */; };
+		CD664B471C094FDE00A432B8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD664B451C094FDE00A432B8 /* SwiftyJSON.framework */; };
+		CDC0B1151C09687C00E93A35 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC0B1131C09687C00E93A35 /* EventTableViewCell.swift */; };
+		CDC0B1161C09687C00E93A35 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC0B1141C09687C00E93A35 /* EventTableViewCell.xib */; };
+		D3A06E1779B78AA93A95807F /* Pods_IITMobileApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E44172D9734B9F04E881053 /* Pods_IITMobileApp.framework */; };
+		D8313ED21C0CD81E00FAEAB3 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8313ED11C0CD81E00FAEAB3 /* Feedback.swift */; };
+		D8313ED41C0CE0AA00FAEAB3 /* Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8313ED31C0CE0AA00FAEAB3 /* Hours.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0FA42E1AD5EA1D00375765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0FA4101AD5EA1D00375765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0FA4171AD5EA1D00375765;
+			remoteInfo = SlideoutMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38C3C6E4F165AC247A4FE6A2 /* Pods-IITMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IITMobileApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IITMobileApp/Pods-IITMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5E44172D9734B9F04E881053 /* Pods_IITMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IITMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747349C3F0C77F80C9F46EC9 /* Pods-IITMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IITMobileApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IITMobileApp/Pods-IITMobileApp.release.xcconfig"; sourceTree = "<group>"; };
+		9800C5E81BC228F000645AC5 /* IIT LOGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IIT LOGO.jpg"; sourceTree = "<group>"; };
+		9800C5EA1BC2290400645AC5 /* iit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iit.png; sourceTree = "<group>"; };
+		9800C5EC1BC229A300645AC5 /* IIT_LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IIT_LOGO.png; sourceTree = "<group>"; };
+		9800C5EE1BC22B3900645AC5 /* watchkit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = watchkit; sourceTree = "<group>"; };
+		9800C5F01BC2339400645AC5 /* Maps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		9800C5F21BC233F400645AC5 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9800C5F41BC2355A00645AC5 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		9800C5F61BC2356200645AC5 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		9800C5FC1BC24B0900645AC5 /* main_campus_bw-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_campus_bw-1.png"; sourceTree = "<group>"; };
+		98CE14D31BC4937100567250 /* ContactUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactUs.swift; path = ../ContactUs.swift; sourceTree = "<group>"; };
+		AC0FA4181AD5EA1D00375765 /* IITMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IITMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0FA41C1AD5EA1D00375765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0FA41D1AD5EA1D00375765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0FA41F1AD5EA1D00375765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0FA4221AD5EA1D00375765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC0FA4241AD5EA1D00375765 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC0FA4271AD5EA1D00375765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC0FA42D1AD5EA1D00375765 /* IITMobileApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IITMobileApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0FA4321AD5EA1D00375765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0FA4331AD5EA1D00375765 /* SlideoutMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideoutMenuTests.swift; sourceTree = "<group>"; };
+		AC0FA43D1AD5EAF800375765 /* SlideoutMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideoutMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC0FA43E1AD5EAF900375765 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AC0FA43F1AD5EAF900375765 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AC0FA4411AD5ECD200375765 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		CD664B401C094F4200A432B8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		CD664B411C094F4200A432B8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		CD664B441C094FDE00A432B8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		CD664B451C094FDE00A432B8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		CDC0B1131C09687C00E93A35 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		CDC0B1141C09687C00E93A35 /* EventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		D8313ED11C0CD81E00FAEAB3 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		D8313ED31C0CE0AA00FAEAB3 /* Hours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hours.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0FA4151AD5EA1D00375765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD664B461C094FDE00A432B8 /* Alamofire.framework in Frameworks */,
+				CD664B471C094FDE00A432B8 /* SwiftyJSON.framework in Frameworks */,
+				D3A06E1779B78AA93A95807F /* Pods_IITMobileApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0FA42A1AD5EA1D00375765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5790CE4569D07FEB689F7117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD664B441C094FDE00A432B8 /* Alamofire.framework */,
+				CD664B451C094FDE00A432B8 /* SwiftyJSON.framework */,
+				CD664B401C094F4200A432B8 /* Alamofire.framework */,
+				CD664B411C094F4200A432B8 /* SwiftyJSON.framework */,
+				5E44172D9734B9F04E881053 /* Pods_IITMobileApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC0FA40F1AD5EA1D00375765 = {
+			isa = PBXGroup;
+			children = (
+				AC0FA41A1AD5EA1D00375765 /* SlideoutMenu */,
+				AC0FA4301AD5EA1D00375765 /* SlideoutMenuTests */,
+				AC0FA4191AD5EA1D00375765 /* Products */,
+				C2E0267283FBE7456EB5BA8B /* Pods */,
+				5790CE4569D07FEB689F7117 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0FA4191AD5EA1D00375765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FA4181AD5EA1D00375765 /* IITMobileApp.app */,
+				AC0FA42D1AD5EA1D00375765 /* IITMobileApp.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0FA41A1AD5EA1D00375765 /* SlideoutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FA41D1AD5EA1D00375765 /* AppDelegate.swift */,
+				AC0FA41F1AD5EA1D00375765 /* ViewController.swift */,
+				AC0FA4211AD5EA1D00375765 /* Main.storyboard */,
+				AC0FA4411AD5ECD200375765 /* BackTableVC.swift */,
+				9800C5F21BC233F400645AC5 /* Home.swift */,
+				9800C5F61BC2356200645AC5 /* Events.swift */,
+				CDC0B1131C09687C00E93A35 /* EventTableViewCell.swift */,
+				CDC0B1141C09687C00E93A35 /* EventTableViewCell.xib */,
+				9800C5F41BC2355A00645AC5 /* News.swift */,
+				D8313ED31C0CE0AA00FAEAB3 /* Hours.swift */,
+				9800C5F01BC2339400645AC5 /* Maps.swift */,
+				98CE14D31BC4937100567250 /* ContactUs.swift */,
+				AC0FA4241AD5EA1D00375765 /* Images.xcassets */,
+				AC0FA4261AD5EA1D00375765 /* LaunchScreen.xib */,
+				D8313ED11C0CD81E00FAEAB3 /* Feedback.swift */,
+				AC0FA41B1AD5EA1D00375765 /* Supporting Files */,
+			);
+			path = SlideoutMenu;
+			sourceTree = "<group>";
+		};
+		AC0FA41B1AD5EA1D00375765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9800C5EE1BC22B3900645AC5 /* watchkit */,
+				9800C5EC1BC229A300645AC5 /* IIT_LOGO.png */,
+				9800C5FC1BC24B0900645AC5 /* main_campus_bw-1.png */,
+				9800C5EA1BC2290400645AC5 /* iit.png */,
+				9800C5E81BC228F000645AC5 /* IIT LOGO.jpg */,
+				AC0FA43E1AD5EAF900375765 /* SWRevealViewController.h */,
+				AC0FA43F1AD5EAF900375765 /* SWRevealViewController.m */,
+				AC0FA41C1AD5EA1D00375765 /* Info.plist */,
+				AC0FA43D1AD5EAF800375765 /* SlideoutMenu-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC0FA4301AD5EA1D00375765 /* SlideoutMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FA4331AD5EA1D00375765 /* SlideoutMenuTests.swift */,
+				AC0FA4311AD5EA1D00375765 /* Supporting Files */,
+			);
+			path = SlideoutMenuTests;
+			sourceTree = "<group>";
+		};
+		AC0FA4311AD5EA1D00375765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FA4321AD5EA1D00375765 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2E0267283FBE7456EB5BA8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38C3C6E4F165AC247A4FE6A2 /* Pods-IITMobileApp.debug.xcconfig */,
+				747349C3F0C77F80C9F46EC9 /* Pods-IITMobileApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0FA4171AD5EA1D00375765 /* IITMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0FA4371AD5EA1D00375765 /* Build configuration list for PBXNativeTarget "IITMobileApp" */;
+			buildPhases = (
+				8DAE4DFA04FE2C71B1E156E9 /* Check Pods Manifest.lock */,
+				AC0FA4141AD5EA1D00375765 /* Sources */,
+				AC0FA4151AD5EA1D00375765 /* Frameworks */,
+				AC0FA4161AD5EA1D00375765 /* Resources */,
+				A308876067999FE6A7279418 /* Embed Pods Frameworks */,
+				0B0D90FEC2008EF64FF8A9EE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IITMobileApp;
+			productName = SlideoutMenu;
+			productReference = AC0FA4181AD5EA1D00375765 /* IITMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0FA42C1AD5EA1D00375765 /* IITMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0FA43A1AD5EA1D00375765 /* Build configuration list for PBXNativeTarget "IITMobileAppTests" */;
+			buildPhases = (
+				AC0FA4291AD5EA1D00375765 /* Sources */,
+				AC0FA42A1AD5EA1D00375765 /* Frameworks */,
+				AC0FA42B1AD5EA1D00375765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0FA42F1AD5EA1D00375765 /* PBXTargetDependency */,
+			);
+			name = IITMobileAppTests;
+			productName = SlideoutMenuTests;
+			productReference = AC0FA42D1AD5EA1D00375765 /* IITMobileApp.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0FA4101AD5EA1D00375765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Archetapp;
+				TargetAttributes = {
+					AC0FA4171AD5EA1D00375765 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 9SP8XHPXXE;
+					};
+					AC0FA42C1AD5EA1D00375765 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = AC0FA4171AD5EA1D00375765;
+					};
+				};
+			};
+			buildConfigurationList = AC0FA4131AD5EA1D00375765 /* Build configuration list for PBXProject "IITMobileApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0FA40F1AD5EA1D00375765;
+			productRefGroup = AC0FA4191AD5EA1D00375765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0FA4171AD5EA1D00375765 /* IITMobileApp */,
+				AC0FA42C1AD5EA1D00375765 /* IITMobileAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0FA4161AD5EA1D00375765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9800C5EB1BC2290400645AC5 /* iit.png in Resources */,
+				AC0FA4231AD5EA1D00375765 /* Main.storyboard in Resources */,
+				9800C5FD1BC24B0900645AC5 /* main_campus_bw-1.png in Resources */,
+				9800C5EF1BC22B3900645AC5 /* watchkit in Resources */,
+				AC0FA4281AD5EA1D00375765 /* LaunchScreen.xib in Resources */,
+				9800C5ED1BC229A300645AC5 /* IIT_LOGO.png in Resources */,
+				CDC0B1161C09687C00E93A35 /* EventTableViewCell.xib in Resources */,
+				9800C5E91BC228F000645AC5 /* IIT LOGO.jpg in Resources */,
+				AC0FA4251AD5EA1D00375765 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0FA42B1AD5EA1D00375765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B0D90FEC2008EF64FF8A9EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IITMobileApp/Pods-IITMobileApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DAE4DFA04FE2C71B1E156E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A308876067999FE6A7279418 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IITMobileApp/Pods-IITMobileApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0FA4141AD5EA1D00375765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CE14D41BC4937100567250 /* ContactUs.swift in Sources */,
+				AC0FA4201AD5EA1D00375765 /* ViewController.swift in Sources */,
+				AC0FA41E1AD5EA1D00375765 /* AppDelegate.swift in Sources */,
+				9800C5F11BC2339400645AC5 /* Maps.swift in Sources */,
+				D8313ED21C0CD81E00FAEAB3 /* Feedback.swift in Sources */,
+				9800C5F51BC2355A00645AC5 /* News.swift in Sources */,
+				9800C5F71BC2356200645AC5 /* Events.swift in Sources */,
+				D8313ED41C0CE0AA00FAEAB3 /* Hours.swift in Sources */,
+				AC0FA4421AD5ECD200375765 /* BackTableVC.swift in Sources */,
+				AC0FA4401AD5EAF900375765 /* SWRevealViewController.m in Sources */,
+				CDC0B1151C09687C00E93A35 /* EventTableViewCell.swift in Sources */,
+				9800C5F31BC233F400645AC5 /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0FA4291AD5EA1D00375765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0FA4341AD5EA1D00375765 /* SlideoutMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0FA42F1AD5EA1D00375765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0FA4171AD5EA1D00375765 /* IITMobileApp */;
+			targetProxy = AC0FA42E1AD5EA1D00375765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0FA4211AD5EA1D00375765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0FA4221AD5EA1D00375765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC0FA4261AD5EA1D00375765 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0FA4271AD5EA1D00375765 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0FA4351AD5EA1D00375765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0FA4361AD5EA1D00375765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0FA4381AD5EA1D00375765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C3C6E4F165AC247A4FE6A2 /* Pods-IITMobileApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = SlideoutMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ryan.IITMobileApp;
+				PRODUCT_NAME = IITMobileApp;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideoutMenu/SlideoutMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0FA4391AD5EA1D00375765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747349C3F0C77F80C9F46EC9 /* Pods-IITMobileApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = SlideoutMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ryan.IITMobileApp;
+				PRODUCT_NAME = IITMobileApp;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideoutMenu/SlideoutMenu-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AC0FA43B1AD5EA1D00375765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlideoutMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = IITMobileApp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IITMobileApp.app/IITMobileApp";
+			};
+			name = Debug;
+		};
+		AC0FA43C1AD5EA1D00375765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlideoutMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Archetapp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = IITMobileApp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IITMobileApp.app/IITMobileApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0FA4131AD5EA1D00375765 /* Build configuration list for PBXProject "IITMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0FA4351AD5EA1D00375765 /* Debug */,
+				AC0FA4361AD5EA1D00375765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0FA4371AD5EA1D00375765 /* Build configuration list for PBXNativeTarget "IITMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0FA4381AD5EA1D00375765 /* Debug */,
+				AC0FA4391AD5EA1D00375765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0FA43A1AD5EA1D00375765 /* Build configuration list for PBXNativeTarget "IITMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0FA43B1AD5EA1D00375765 /* Debug */,
+				AC0FA43C1AD5EA1D00375765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0FA4101AD5EA1D00375765 /* Project object */;
+}
